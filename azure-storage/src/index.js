@@ -92,4 +92,5 @@ app.post("/upload", async (req, res) => {
 //
 app.listen(PORT, () => {
     console.log(`Microservice online`);
+    console.log('acure storage deploy')
 });
