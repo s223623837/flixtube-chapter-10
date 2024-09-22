@@ -110,5 +110,5 @@ main()
     .catch(err => {
         console.error("Microservice failed to start.");
         console.error(err && err.stack || err);
-        console.log("First gateway service");
+        console.log("First gateway service for test");
     });
